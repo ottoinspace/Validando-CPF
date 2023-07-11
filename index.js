@@ -1,7 +1,6 @@
 function ValidaCPF(cpfEnviado) {
     Object.defineProperty(this, 'cpfLimpo', {
-        get: () => cpfEnviado.replace(/\D+/g, ''),
-
+        get: () => cpfEnviado.replace(/\D+/g, '')
     });
 }
 
